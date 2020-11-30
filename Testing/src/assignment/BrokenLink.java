@@ -1,6 +1,5 @@
 package assignment;
 
-import static org.junit.Assert.*;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
