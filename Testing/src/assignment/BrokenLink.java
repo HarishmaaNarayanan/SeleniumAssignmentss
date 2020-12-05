@@ -28,7 +28,7 @@ public class BrokenLink {
         System.out.println("Total links are "+links.size());  
         for(int i=0; i<links.size(); i++) {
             WebElement element = links.get(i);
-            //By using "href" attribute, we could get the url of the requried link
+           
             String url1=element.getAttribute("href");
             //calling verifyLink() method here. Passing the parameter as url which we collected in the above link
             //See the detailed functionality of the verifyLink(url) method below

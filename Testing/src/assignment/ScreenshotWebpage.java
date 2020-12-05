@@ -30,8 +30,6 @@ public class ScreenshotWebpage {
 		
 	}
 
-	
-
 	@Test
 	public void test() throws Exception{
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
@@ -39,7 +37,6 @@ public class ScreenshotWebpage {
 	    
 	}
 
-	
 	@After
 	public void tearDown() throws Exception {
 		driver.quit();
